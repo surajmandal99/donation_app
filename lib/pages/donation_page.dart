@@ -51,6 +51,7 @@ class DonationPage extends StatelessWidget {
                 "Become a real Fan",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22),
               ),
+              const SizedBox(height: 20),
               Padding(
                 padding: const EdgeInsets.all(12.0),
                 child: Container(
@@ -74,6 +75,9 @@ class DonationPage extends StatelessWidget {
                   ),
                 ),
               ),
+              const SizedBox(
+                height: 10,
+              ),
               Padding(
                 padding: const EdgeInsets.all(12.0),
                 child: Container(
@@ -89,6 +93,9 @@ class DonationPage extends StatelessWidget {
                         focusedBorder: InputBorder.none),
                   ),
                 ),
+              ),
+              const SizedBox(
+                height: 10,
               ),
               Padding(
                 padding: const EdgeInsets.all(12.0),
@@ -107,8 +114,8 @@ class DonationPage extends StatelessWidget {
                   ),
                 ),
               ),
-              const SizedBox(
-                height: 100,
+              Container(
+                height: 50,
               ),
               Center(
                 child: ElevatedButton(
