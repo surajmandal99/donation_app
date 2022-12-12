@@ -3,8 +3,6 @@
 # Screenshot of the UI for the HomePage
             
             
-            
-            ![Uploading tiobu.png…]()
 
 A new Flutter project.
 
